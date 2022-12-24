@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Playable Piano JavaScript</title>
+    <link rel="stylesheet" href="./assets/CSS/main.css">
+    <link rel="stylesheet" href="./assets/CSS/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/JS/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Playable PIANO</h2>
+        <div class="column volume-slider">
+          <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+        </div>
+        <div class="column keys-checkbox">
+          <p class="instruction">Press 'r' or 'R' instead of clicking</p>
+          <span>Show Keys</span><input type="checkbox" checked>
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key whiteBar" data-key="a"><span>a</span></li>
+        <li class="key blackBar" data-key="w"><span>w</span></li>
+        <li class="key whiteBar" data-key="s"><span>s</span></li>
+        <li class="key blackBar" data-key="e"><span>e</span></li>
+        <li class="key whiteBar" data-key="d"><span>d</span></li>
+        <li class="key whiteBar" data-key="f"><span>f</span></li>
+        <li class="key blackBar" data-key="t"><span>t</span></li>
+        <li class="key whiteBar" data-key="g"><span>g</span></li>
+        <li class="key blackBar" data-key="y"><span>y</span></li>
+        <li class="key whiteBar" data-key="h"><span>h</span></li>
+        <li class="key blackBar" data-key="u"><span>u</span></li>
+        <li class="key whiteBar" data-key="j"><span>j</span></li>
+        <li class="key whiteBar" data-key="k"><span>k</span></li>
+        <li class="key blackBar" data-key="o"><span>o</span></li>
+        <li class="key whiteBar" data-key="l"><span>l</span></li>
+        <li class="key blackBar" data-key="p"><span>p</span></li>
+        <li class="key whiteBar" data-key=";"><span>;</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
